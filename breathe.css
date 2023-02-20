@@ -1,0 +1,390 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.45),
+  rgba(0,0,0,0.45)), url(breathe.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+header h1 {
+  padding: 25px;
+  margin-top: 13px;
+  color:rgb(255, 255, 255);
+  font-weight: 1200;
+  margin-bottom: 0px;
+  text-align: center;
+  font-style: italic;
+}
+
+.col1 h1
+{
+  padding: 25px;
+  margin-left: 15px;
+  margin-top: 13px;
+  color:#fff;
+  font-weight: 1200;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+/* MOBILE CALL OUT USING Flex */
+nav{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+
+/* NAVIGATION BAR */
+nav a{
+  color: #fff;
+  transition: 0.65s;
+  opacity: 0.8;
+  border-radius: 30px;
+  border-color: none;
+  box-shadow: 0px 0px 10px #000000;
+  cursor: pointer;
+  margin: 0px 30px 10px 30px;
+  text-decoration: none;
+  padding: 15px 20px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+nav a:hover{
+  background-color: #B99B6B;
+  padding: 15px;
+  border-radius: 20px;
+  color: #FFFBF5;
+  box-shadow: 0 0 15px #B99B6B;
+  opacity: 0.9;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: large;
+
+}
+
+nav a:active{
+  box-shadow: none;
+  color: #ffea00;
+}
+
+.row1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.col1{
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px black;
+  transition: 0.8s;
+  flex-basis: 50%;
+  margin: 20px;
+}
+
+.col1:hover{
+  background-color: #B99B6B;
+  box-shadow: 0 0 15px #B99B6B;
+  font-size: large;
+}
+
+.col1 p{
+  color: #fff;
+  margin-left: 8px;
+}
+
+.col1 button{
+  width: 150px;
+  height: 35px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border-color: none;
+  box-shadow: 0px 0px 10px #fff;
+  cursor: pointer;
+  transition: 0.7s;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.col1 button:hover{
+  background-color: #B99B6B;
+  color: #fff;
+}
+
+.col1 button:active{
+  box-shadow: none;
+  opacity: 0.4;
+}
+
+.col2{
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px black;
+  transition: 0.8s;
+  flex-basis: 50%;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imahe-to{
+  width: 100px;
+  height: 150px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 8px;
+  margin:  15px;
+  box-sizing: border-box;
+  background-position: center;
+  background-size:cover;
+  cursor: pointer;
+  text-align: right;
+}
+
+
+.to1{
+  background-image: url(331.jpg);
+}
+.to2{
+  background-image: url(nyak\ nyak.png);
+}
+.to3{
+  background-image: url(hm.png);
+}
+.to4{
+  background-image: url(fly.png);
+}
+
+.col2:hover
+{
+  padding: 10px;
+  background-color: #B99B6B;
+  box-shadow: 0 0 15px #B99B6B;
+  opacity: 0.85;
+}
+
+ .to1:hover, .to2:hover, .to3:hover, .to4:hover{
+  box-shadow: 0px 0px 20px #00092C;
+  width: 150px;
+  height: 175px;
+  transition: 0.7s;
+}
+
+.imahe-to .to1:hover{
+    padding: 20px;
+}
+
+
+/* FOOTER STYLING */
+
+footer {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-top: 40px;
+  color: #fff;
+}
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3{
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+  list-style: 10px;
+}
+
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 1rem 3rem 1rem;
+}
+
+.socials li{
+  margin: 0 10px;
+}
+
+.socials a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.socials a i{
+  font-size: 2rem;
+  transition:  0.4s;
+  color: #fff;
+}
+
+.socials a:hover i{
+  color: #ffea00;
+  padding: 0 0 10px 0;
+  margin: 0;
+}
+
+.footer-bottom{
+  background-color: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 300;
+}
+
+
+/* TABLET MODE MODIFICATIONS */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  nav{
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 10px;
+  }
+
+  nav a{
+    margin-right: 5px;
+    padding: 7px 20px;
+  }
+
+  header h1{
+    text-align: left;
+    font-size: 45px;
+}
+
+.row1{
+  width: 60%;
+}
+
+.col2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+}
+
+/* DESKTOP MODE MODIFICATIONS */
+@media screen and (min-width: 1024px) and (max-width: 1960px){
+  header h1{
+    text-align: left;
+    font-size: 80px;
+    justify-self: left;
+    flex-basis: 40%;
+  }
+
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+
+  nav{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 60%;
+    padding: 50px 0 0 50px;
+    justify-content: end;
+    align-items: center;
+  }
+
+  nav a{
+    padding: 20px 30px;
+    margin: 0px 15px;
+    font-size: 15px;
+    width: 140px;
+    align-items: center;
+    justify-content: center;
+    text-;
+  }
+
+  nav a:hover{
+    padding: 10px 20px;
+    font-weight: 700;
+  }
+
+  .col2{
+    flex-direction: row;
+    display: inline-block;
+  }
+
+  .row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .col1{
+    margin: 20px;
+    width: 50vw;
+    height: auto;
+  }
+
+  .col2{
+    margin: 20px 20px 20px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+  }
+
+  .imahe-to{
+    width: 130px;
+    height:280px;
+  }
+
+  .to1:hover, .to2:hover, .to3:hover, .to4:hover{
+    box-shadow: 0px 0px 20px #00092C;
+    width: 130px;
+    height: 280px;
+    transition: 0.7s;
+    padding: 20px;
+  }
+
+  footer{
+    margin-top: ;
+  }
+}
