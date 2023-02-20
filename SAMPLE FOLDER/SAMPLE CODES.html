@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 1</title>
+    <style>
+      body {
+        margin: 20px 100px;
+      }
+      header h1 {
+        text-align: center;
+        border-bottom-style: solid;
+        /* border-bottom: 10px; */
+      }
+      /* header {
+        padding: 0 100px 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      header img {
+        width: 220px;
+      } */
+      /* header div h1 {
+        display: inline-block; 
+      } */
+      h2 {
+        margin-bottom: 0;
+      }
+      .fDevLogo img {
+        float: right;
+        margin: 0 0 1% 1%;
+      }
+      .fDayBootcamp iframe {
+        float: left;
+        margin: 0 1% 1% 0;
+      }
+      .searchEngine p a {
+        color: black;
+      }
+      .searchEngine p a:hover {
+        color: blue;
+      }
+      .searchEngine ul li a {
+        text-decoration: none;
+        color: black;
+      }
+      .searchEngine ul li a:hover {
+        color: blue;
+        text-decoration: underline;
+      }
+
+      .gMapLocation {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1%;
+      }
+      .cat {
+        display: flex;
+        width: 50%;
+        margin: 100px auto 100px;
+      }
+      .catImage {
+        margin-right: 2%;
+      }
+      .catImage img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      }
+      .catInfo h2 {
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- <img src="kodego.png" alt="kodego" /> -->
+      <h1>Activity 1: HTML tags and Attributes</h1>
+    </header>
+
+    <main>
+      <div class="fDevLogo">
+        <h2>Front-End Web Development</h2>
+        <hr />
+        <img src="logo.jpg" alt="Logos" usemap="#logo" />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, in
+          iure impedit, odio voluptates praesentium facilis quos repellendus
+          pariatur, natus non ex earum quae! Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Quod tempore vero iste dolorum
+          consequatur nihil quibusdam, incidunt nemo perspiciatis aut quis
+          recusandae aliquam cumque harum alias fugiat consequuntur. Cupiditate
+          quis obcaecati iure sit, dolores eum necessitatibus sapiente vero.
+          Magnam deserunt quasi dignissimos possimus. Ipsum maiores, amet
+          eveniet molestias dignissimos inventore. Quaerat consectetur, impedit
+          quae fugit tempore doloremque dicta consequuntur itaque saepe
+          veritatis ratione, repellat ipsam id recusandae nobis quasi
+        </p>
+
+        <p>
+          consequatur. Quidem doloremque, vel deserunt numquam quis quia
+          consequuntur vero amet veniam labore, aliquid eius debitis asperiores
+          provident earum? Iure voluptates rem beatae animi consequuntur
+          nesciunt, assumenda ipsam aperiam, labore ad debitis odit nihil ut
+          modi maxime praesentium commodi in placeat velit reiciendis voluptate
+          tenetur unde! Odit inventore praesentium ducimus voluptatem veniam vel
+          culpa velit tempora error qui ullam cumque quam nobis ipsam numquam
+          natus rerum ut molestiae, quod ea. Quod, harum eos. Corporis,
+          architecto quidem suscipit, deserunt totam eligendi cum maxime ipsa
+          distinctio voluptas expedita sapiente autem amet. Laudantium officiis
+          dolores repellat vitae, voluptatem alias hic sequi neque doloribus
+          maxime unde aut architecto amet eum, repudiandae quam fugit nisi odio
+          deserunt nihil autem! Tempora, omnis at? Reprehenderit suscipit
+          perspiciatis earum quaerat adipisci ex labore exercitationem quae
+        </p>
+        <p>
+          voluptates inventore soluta laudantium placeat, at, eligendi totam
+          vitae cum corporis enim dolorum veniam asperiores et ipsam delectus?
+          Asperiores, minima distinctio. Labore aperiam corrupti amet harum
+          repellendus dolorem consectetur odio assumenda non id officiis aut
+          cupiditate ratione nihil ullam doloremque ea illo perferendis, sint
+          repellat quam tempore suscipit accusamus voluptates. Doloribus impedit
+          consequuntur error! Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Quam quaerat blanditiis, sequi maxime ab veritatis harum
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+          assumenda eligendi nobis mollitia numquam earum recusandae quia
+          consequatur itaque, adipisci molestiae eos, animi placeat optio odio
+          molestias libero rem, voluptates inventore! Blanditiis reiciendis
+          repellendus culpa aliquid? Necessitatibus rem pariatur aut tenetur.
+          Cumque impedit autem eligendi quibusdam iusto, minima provident
+          dolorum?
+        </p>
+        <map name="logo">
+          <area
+            shape="poly"
+            coords="123,68,263,68,250,210,191,224,136,210"
+            href="https://html.com/"
+            alt="html"
+          />
+          <area
+            shape="poly"
+            coords="316,66,450,67,440,206,383,224,327,210"
+            href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+            alt="css"
+          />
+          <area
+            shape="poly"
+            coords="213,246,355,250,345,390,284,408,225,390"
+            href="https://javascript.info/"
+            alt="javascript"
+          />
+        </map>
+      </div>
+
+      <div class="fDayBootcamp">
+        <h2>First Day Bootcamp(A.M)</h2>
+        <hr />
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/jrVNAChsuPI"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+          sed accusantium quae, iste nobis modi reiciendis facere officiis
+          eligendi iusto voluptatibus quam accusamus rerum cum esse fugit
+          architecto! Possimus eum tenetur doloribus temporibus expedita autem
+          ducimus! Incidunt nemo laudantium sequi dicta? Nesciunt accusamus
+          autem, magnam nemo blanditiis ad quo cum perferendis, numquam
+          repudiandae tenetur eveniet ipsam illum ullam dolore ab voluptatum
+          corrupti? Accusantium autem enim minus vel itaque numquam tenetur quae
+          deleniti deserunt quibusdam cum tempora magni, nostrum accusamus
+          recusandae voluptas perspiciatis. Ipsam blanditiis corporis eveniet
+          rem, magni obcaecati dolore id modi molestias voluptatum similique
+          laborum, officia sunt dignissimos ratione!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+          accusantium officiis perspiciatis esse magni suscipit odio. Excepturi
+          quod at ab commodi tempora quisquam magni officia veritatis sint
+          voluptates quibusdam aperiam nam, aliquid, accusantium impedit
+          necessitatibus! In nostrum accusantium sit nisi autem, aperiam,
+          exercitationem suscipit labore veritatis quas ipsa? Inventore, maxime.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ut, vel
+          distinctio mollitia quia porro quam rem! Autem explicabo corrupti
+          perferendis nulla ullam dolorum, accusantium ex ad dolorem
+          exercitationem laboriosam consectetur adipisci incidunt quaerat
+          assumenda sint sit laborum fuga quo animi sapiente! Sed suscipit
+          explicabo, at dolorum velit culpa quis tempora minima, excepturi,
+          ipsum nulla blanditiis exercitationem ab quidem ducimus reprehenderit
+          minus facere perferendis ullam doloremque laborum illum rem rerum
+          amet. Nisi deleniti harum eveniet doloremque velit dolor quo dolores
+          perferendis vero ipsa ratione, hic minima. Ipsum soluta pariatur a
+          similique! Neque laborum quis quae consequuntur, enim ab optio quas!
+        </p>
+      </div>
+
+      <div class="searchEngine">
+        <h2>Search Engine</h2>
+        <hr />
+        <p>
+          A search engine is a
+          <a href="#">software system</a> that is designed to carry out web
+          searches. They search the
+          <span style="color: blue">World Wide Web</span> in a systematic way
+          for particular information specified in a textual web search query.
+        </p>
+        <a href="#" style="color: green"> Search Engines </a>
+        <ul style="margin: 0">
+          <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+          <li><a href="https://www.bing.com/#!" target="_blank">Bing</a></li>
+          <li>
+            <a
+              href="https://login.yahoo.com/?.src=ym&lang=en-US&done=https%3A%2F%2Fmail.yahoo.com%2F%3Fguce_referrer%3DaHR0cHM6Ly93d3cuYmluZy5jb20v%26guce_referrer_sig%3DAQAAAAbXNd6Q82qGsFEWlY8AxMv5jC4Osx45jUrWXhFn8dzBRo8Dl76QVrv-uCjsSuzZD0aEaj8HT3cHMg5kisOXKFiNvY1SE0tuHg4kMQCaJpvPS4ux-Lwo_dX2tyPAvxjSZt_iVQ_10VO-wwW0dHGb3wVm9YTXnj04ApCxbflGAxzd"
+              target="_blank"
+              >Yahoo</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="gMap">
+        <h2 style="text-align: center">Google Philippines Office</h2>
+        <hr />
+        <div class="gMapLocation">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d67381.17880704047!2d121.0315584516851!3d14.553351540936367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8f02353730d%3A0xdfaf09a5eeab72f1!2sSeven%2FNEO%2C%205th%20Ave%2C%20Taguig%2C%201634%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1675240095369!5m2!1sen!2sph"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime
+          nesciunt inventore id vel necessitatibus, enim ea pariatur ipsum quos
+          tenetur tempora, perferendis nihil dolorem repellat consectetur fugiat
+          explicabo ullam, accusamus cum ipsa blanditiis culpa illo odit
+          molestias? Fugit illum odit, animi numquam quod, debitis quasi
+          explicabo esse similique a laborum amet ducimus quis aperiam! Suscipit
+          culpa eveniet qui non, officia voluptatum unde, laudantium
+          exercitationem velit fugit ullam provident corporis facere enim magnam
+          ad aperiam nemo voluptatibus odio ab temporibus optio et. Perferendis
+          fuga vel nostrum nisi doloremque cupiditate maxime iusto quod impedit
+          nemo iure odio, accusantium, nesciunt reiciendis esse repellendus.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque
+          nisi officiis labore repellendus mollitia quod nostrum, corrupti
+          pariatur quaerat molestiae blanditiis animi beatae laudantium impedit
+          consequatur quibusdam quia illum facilis voluptas libero ut asperiores
+          et. Quia perferendis eius cumque? Nesciunt blanditiis dolorem enim
+          nisi ratione recusandae sit vero alias.
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet,
+          quisquam explicabo! Quos ratione aliquam ab consequuntur totam?
+          Praesentium vitae cum delectus deserunt quis quidem libero laudantium
+          eos, doloribus quaerat aut magnam incidunt non nulla molestiae vel
+          placeat veritatis omnis iste atque tempora repellendus itaque
+          distinctio. Exercitationem, explicabo sequi optio saepe magni, magnam
+          obcaecati ut maxime aliquid laboriosam facilis quam? Delectus officia
+          fugit laborum ipsa quia ipsum excepturi nemo non nobis. Sapiente
+          debitis, dignissimos, hic ipsam fugit beatae autem corrupti
+          consequatur assumenda facere doloremque reprehenderit earum repellat
+          expedita rem. Nesciunt quidem exercitationem tempore! Atque beatae,
+          illum animi suscipit praesentium nesciunt minus.
+        </p>
+      </div>
+
+      <div class="cat">
+        <div class="catImage"><img src="money.jpg" alt="richCat" /></div>
+        <div class="catInfo">
+          <h2>Pussy Cash</h2>
+          <p>
+            Pussy Cash is a college undergrad. An avid reader and writer, Pussy
+            Cash is currently studying under Kodego with 0 knowledge of coding.
+            He firmly believes in the power of money and is constantly seeking
+            ways to get money by hook or by crook.
+          </p>
+        </div>
+      </div>
+    </main>
+    <hr />
+
+    <footer>
+      <p style="text-align: center">
+        &copy;Copyright Daryl Monggoloid 2023 | &reg; Trademark
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,3 @@
+A search engine is a software system that is designed to carry out web searches.
+They search the World Wide Web in a systematic way for the particular information
+specified in a textual web search query.
