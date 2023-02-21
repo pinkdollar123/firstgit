@@ -1,2 +1,0 @@
-float moves the content to direction
-margin puts margin area
